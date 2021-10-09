@@ -1,0 +1,82 @@
+*{
+    font-family: Arial;
+}
+body{
+    background-color:rgb(106, 228, 250);
+    margin:0;
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(52, 64, 87);
+}
+
+.menu{
+    list-style-type: none;
+    flex-direction: row ;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu li :hover{
+    background-color: rgb(0, 60, 255);
+    transition: 0.5s;
+    opacity: 1.5;
+    padding: 5px;
+}
+  section{
+      text-align: center;
+      margin-top: 30px;
+      background-color: rgb(52, 64, 87);
+      color: white;
+      padding-top:20px;
+      padding-bottom: 20px;
+      margin: 40px;
+  }
+  article{
+      background-color: rgb(52, 64, 87);
+      margin-top: 30px;
+      padding: 20px;
+      margin: 40px;
+      color:white;
+      
+  }
+  
+  .link{
+      text-decoration: none;
+      color:white;
+  }
+  
+  .imagens{
+      
+      height: 250px;
+  }
+  
+  .pagina2{
+      text-align: left;
+      margin: 40px;
+      padding-top: 20px;
+      padding-bottom: 15px;
+      padding: 30px;
+      color: white;
+  }
+  
+  .final-da-pagina{
+      text-align: center;
+      margin: 40px;
+      margin-bottom: 0px;  
+      padding-top: 20px;
+      padding-bottom: 8px;
+      background-color: rgb(52, 64, 87);
+      color: white;
+  }
