@@ -2,49 +2,56 @@
     font-family: Arial;
 }
 body{
-    background-color:rgb(106, 228, 250);
+    background-color: rgb(7, 7, 53);
     margin:0;
 }
 
 header{
     text-align: center;
     padding: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     font-size: 20px;
     color: white;
-    background-color: rgb(52, 64, 87);
+    background-color:  #78866b;
 }
 
 .menu{
-    list-style-type: none;
-    flex-direction: row ;
+    list-style: none;
+    background-color: #78866b;
+    justify-content: space-around;
+}
+.menu ul{
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 20px;
-    font-size: 15px;
+    justify-content: space-around;
+    flex-direction: row
 }
 
-.menu a {
-    text-decoration: none;
-    color: white;
+
+.menu ul li{
+    display: flex;
 }
-.menu li :hover{
-    background-color: rgb(0, 60, 255);
-    transition: 0.5s;
-    opacity: 1.5;
-    padding: 5px;
+
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: background .4s;
+}
+.menu ul li a:hover{
+    background-color: #4b6632;
 }
   section{
       text-align: center;
       margin-top: 30px;
-      background-color: rgb(52, 64, 87);
+      background-color: #78866b;
       color: white;
       padding-top:20px;
       padding-bottom: 20px;
       margin: 40px;
   }
   article{
-      background-color: rgb(52, 64, 87);
+      background-color: #78866b;
       margin-top: 30px;
       padding: 20px;
       margin: 40px;
@@ -56,7 +63,7 @@ header{
       text-decoration: none;
       color:white;
   }
-  
+
   .imagens{
       
       height: 250px;
@@ -77,6 +84,15 @@ header{
       margin-bottom: 0px;  
       padding-top: 20px;
       padding-bottom: 8px;
-      background-color: rgb(52, 64, 87);
+      background-color: #78866b;
       color: white;
   }
+
+p a:visited{
+    color:black;
+
+}
+
+p a:link{
+    color:white;
+}
