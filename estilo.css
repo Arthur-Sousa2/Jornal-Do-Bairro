@@ -88,11 +88,27 @@ header{
       color: white;
   }
 
-p a:visited{
-    color:black;
-
+a:link{
+    color: white;
+    text-decoration: none;
 }
 
-p a:link{
-    color:white;
+a:visited{
+    color: rgb(161, 61, 161);
+    text-decoration:none;
+    cursor: pointer;
+}
+#historia
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:visited{
+   
+    color: black;
 }
