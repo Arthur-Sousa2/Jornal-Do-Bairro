@@ -15,6 +15,40 @@ header{
     background-color:  #78866b;
 }
 
+.titulo{
+    animation-name: título;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+@keyframes título{
+    0%{
+        color: #76925c;
+    }
+
+    20%{
+        color: rgb(78, 78, 216);
+    }
+
+    40%{
+        color: rgb(0, 0, 0);
+    }
+
+    60%{
+        color: rgb(57, 169, 221);
+    }
+
+    80%{
+        color: rgb(199, 199, 243);
+    }
+
+    100%{
+        color: rgb(255, 255, 255);
+        transform: rotate(1turn);
+    }
+}
+
 .menu{
     list-style: none;
     background-color: #78866b;
@@ -41,6 +75,7 @@ header{
 .menu ul li a:hover{
     background-color: #4b6632;
 }
+
   section{
       text-align: center;
       margin-top: 30px;
@@ -84,7 +119,7 @@ header{
       margin-bottom: 0px;  
       padding-top: 20px;
       padding-bottom: 8px;
-      background-color: #78866b;
+      background-color: #778070;
       color: white;
   }
 
@@ -109,6 +144,6 @@ nav a:link{
     color: white;
 }
 nav ul a:visited{
-   
+    text-decoration: none;
     color: black;
 }
